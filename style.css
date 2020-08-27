@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: Black;
+}
+
+p {
+  color: white;
+}
+
+article {
+  margin: 30px;
+  width: 1600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+img {
+}
+
+.first-text {
+  display: block;
+  width: 45%;
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 80px;
+  font-size: 18px;
+  line-height: 23px;
+  position: center;
+}
+
+.first-image {
+  display: block;
+  width: 45%;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.second-text {
+  width: 45%;
+  height:346px;
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 23px;
+  margin: auto;
+}
+
+.vertical {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.second-image {
+  display: block;
+  width: 45%;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.third-text {
+  width: 45%;
+  height:346px;
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 23px;
+  margin: auto;
+}
+
+.third-image {
+  display: block;
+  width: 45%;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+nav {
+  width: 100;
+  height: 50px;
+  background-color: yellow;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+ul {
+margin-left: 60px;
+
+}
+
+ul li {
+list-style: none;
+display: inline-block;
+float: left;
+line-height: 50px;
+}
+
+ul li a {
+text-decoration: none;
+font-size: 14px;
+font-weight: 100;
+font-family: fantasy;
+color: orange;
+padding: 0 20px;
+display: block;
+
+}
+
+ul li a:hover {
+  color: red;
+}
+
+.icons {
+  width: 100%;
+  height: 80px;
+  display: inline-block;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.first-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.second-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.third-icon {
+  width: 50px;
+  height: 50px;
+}
+
+
+/*.videowrapper {
+  position: relative;
+  width: 1000px;
+  margin: 0px auto;
+  padding-bottom: 52.25%;
+  padding-top: 25px;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}*/
