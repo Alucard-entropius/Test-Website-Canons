@@ -20,9 +20,3 @@ function quizz() {
     document.getElementById('quiz').style.display = "block";
     }
 }
-
-/*function writeNames() {
-  let names = [];
-  document.getElementById('loreChars').value.push(names);
-  return names[];
-}*/
