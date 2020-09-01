@@ -15,9 +15,18 @@
       </ul>
     </nav>
     <h1>I want to write Canons</h1>
-    <input id="Name" type="text" name="Your Name:">
-    <button onclick="greeting()" type="button" name="submit">Submit</button>
-    <p id="HiddenMessage">Well today is your lucky day!!!</p>
-    <button id="countDownButton" onclick="countDown()" type="button" name="button">10</button>
+
+    <div class="greetingMessage">
+      <p>So you came here to get some ideas? Click on a button to continue!</p>
+      <button onclick="greeting()" type="button" name="submit">Submit</button>
+      <p id="HiddenMessage">Well today is your lucky day!!! Countdown to 0 to proceed.</p>
+        <button id="countDownButton" onclick="countDown()" onmouseover="quizz()" type="button" name="button">10</button>
+          <div id="quiz" class="function">
+            <p>Type the names of your 3 favorite wow lore characters. Remember to press "Enter" after each name.</p>
+            <label for="loreChars">Lore Character:</label>
+            <input type="text" id="loreChars" name="fname">
+            <p>{names}</p>
+          </div>
+    </div>
   </body>
 </html>

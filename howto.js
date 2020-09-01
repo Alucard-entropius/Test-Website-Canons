@@ -1,5 +1,6 @@
 function greeting() {
   document.getElementById('HiddenMessage').style.display = "block";
+  document.getElementById('countDownButton').style.display = "block";
 }
 
 function countDown() {
@@ -9,5 +10,19 @@ function countDown() {
     newValue = currentValue - 1;
   }
   document.getElementById('countDownButton').innerHTML = newValue;
-  console.log(newValue);
+
 }
+
+function quizz() {
+  let button = document.getElementById('countDownButton').innerHTML;
+  console.log(button);
+  if (button === '0'){
+    document.getElementById('quiz').style.display = "block";
+    }
+}
+
+/*function writeNames() {
+  let names = [];
+  document.getElementById('loreChars').value.push(names);
+  return names[];
+}*/

@@ -171,11 +171,48 @@ ul li a:hover {
 }
 
 button {
-  width: 50px;
-  height: 20px;
+  width: 100px;
+  height: 30px;
+}
+
+#countDownButton {
+  width: 100px;
+  height: auto;
+  display: none;
 }
 
 #HiddenMessage {
+  display: none;
+  color: Black;
+}
+
+.greetingMessage {
+  width: 1500px;
+  height: auto;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 24px;
+  color: Black;
+}
+
+.function {
+  height: auto;
+  width 100%;
+  padding: 30px;
+  line-height: 50px;
+}
+
+.function p {
+  color: orange;
+  font-size: 30px;
+}
+
+input {
+  height: 30px;
+  width: 170px;
+}
+
+#quiz {
   display: none;
 }
 
