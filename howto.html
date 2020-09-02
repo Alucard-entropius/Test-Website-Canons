@@ -18,7 +18,7 @@
 
     <div class="greetingMessage">
       <p class="paint">So you came here to get some ideas? Click on a button to continue!</p>
-      <button onclick="greeting()" type="button" name="submit">Submit</button>
+      <button onclick="greeting()" type="button" name="submit">Begin!</button>
       <p id="HiddenMessage">Well today is your lucky day!!! Countdown to 0 to proceed.</p>
         <button id="countDownButton" onclick="countDown()" onmouseover="quizz()" type="button" name="button">10</button>
 
@@ -26,32 +26,44 @@
             <p>Type the names of your 3 favorite wow lore characters.</p>
               <input  placeholder="maybe Illidan?" type="text" id="inputText">
                 <script src="loreChars.js"></script>
-              <button id="addButton" onclick="writeNames()">Add</button>
+              <button id="addButton" onclick="writeNames()">Add char</button>
               <p id="ptext"></p>
           </div>
     </div>
 
     <div id="2ndquiz"class="secondQuiz">
-      <p class="paint2">Now choose your favorite genre of story.</p>
+      <p class="paint2">Now choose your favorite genre(s) of story.</p>
       <ul class="genres">
         <li class="genre">
-          <input id="genre1" type="checkbox" name="Comedy" value="Comedy">
-          <label for="genre1">Comedy</label>
+          <label for="genre1">Comedy </label>
+          <input onclick="secondQuizOne()" id="genre1" type="checkbox" name="Comedy" value="Comedy">
+
         </li>
         <li class="genre">
-          <input id="genre2" type="checkbox" name="Horror" value="Horror">
-          <label for="genre2">Horror</label>
+          <label for="genre2">Horror  </label>
+          <input onclick="secondQuizTwo()" id="genre2" type="checkbox" name="Horror" value="Horror">
+
         </li>
         <li class="genre">
-          <input id="genre3" type="checkbox" name="Romance" value="Romance">
           <label for="genre3">Romance</label>
+          <input onclick="secondQuizThree()" id="genre3" type="checkbox" name="Romance" value="Romance">
+
         </li>
       </ul>
+      <script src="secondquiz.js">
+
+      </script>
     </div>
 
-    <div class="thirdQuiz">
-      <input type="radio" name="Black Temple" value="Black Temple">
-      <input type="radio" name="Sunwell" value="Sunwell">
-    </div>
+    <form class="" action="index.html" method="post">
+      <div id="quizzz" class="thirdQuiz">
+        <p class="paint2">And for last, pick one of the suggested instances.</p>
+        <input class="radio" type="radio" name="instance" value="Black Temple">
+        <label class="labeltext" for="Black Temple">Black Temple</label>
+        <input class="radio" type="radio" name="instance" value="Sunwell">
+        <label class="labeltext" for="Sunwell">Sunwell</label>
+      </div>
+    </form>
+
   </body>
 </html>

@@ -17,6 +17,8 @@ body {
 
 h1 {
   text-align: center;
+  color: orange;
+  text-decoration-style: solid;
 }
 
 h2 {
@@ -25,7 +27,6 @@ h2 {
 }
 
 p {
-  color: white;
 }
 
 article {
@@ -172,8 +173,10 @@ ul li a:hover {
 }
 
 button {
+  margin-top: 10px;
   width: 100px;
   height: 30px;
+  margin-left: 20px;
 }
 
 #countDownButton {
@@ -184,13 +187,16 @@ button {
 
 #HiddenMessage {
   display: none;
-  color: orange;
+  color: red;
+  padding-left: 20px;
+  font-size: 30px;
+  padding-top: 20px;
 }
 
 .greetingMessage {
   width: 1500px;
   height: auto;
-  padding-left: 20px;
+  padding-left: 0px;
   text-align: left;
   line-height: 24px;
 }
@@ -200,18 +206,22 @@ button {
 }
 
 .paint {
-  color: orange;
+  color: red;
+  padding-left: 20px;
+  font-size: 30px;
+  padding-top: 20px;
 }
 
 .paint2 {
   color: orange;
   padding-left: 20px;
+  font-size: 30px;
 }
 
 .function {
   height: auto;
   width 100%;
-  padding: 30px;
+  padding: 20px;
   line-height: 50px;
 }
 
@@ -238,11 +248,12 @@ input {
 
 .genre {
   padding-top: 10px;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
-  justify-content: center;
   margin: auto;
   color: orange;
+  float: none;
+  line-height: 20px;
 }
 
 .genres {
@@ -259,14 +270,49 @@ li.genre {
 }
 
 #genre1, #genre2, #genre3 label {
-
   line-height: 20px;
   cursor: pointer;
+  vertical-align: middle;
+  justify-content: space-between;
+  width: 100px;
+}
+
+#genre1 {
+  width: 81px;
 }
 
 #genre3 {
   cursor: pointer;
+  width: 70px;
+  vertical-align: middle;
 }
+
+.radio {
+  width: 35px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.labeltext {
+  height:30px;
+  color: orange;
+  vertical-align: middle;
+  font-style: italic;
+  font-size: 37px;
+
+}
+
+.thirdQuiz {
+    height: 100px;
+}
+
+#quizzz {
+  display: none;
+}
+
+/*input[type="checkbox"]:checked {
+  font-weight: bold;
+}*/
 
 /*.videowrapper {
   position: relative;
