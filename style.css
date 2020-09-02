@@ -114,6 +114,7 @@ nav {
   background-color: yellow;
   margin-left: 20px;
   margin-right: 20px;
+  /*position:fixed;*/
 
 }
 
@@ -183,7 +184,7 @@ button {
 
 #HiddenMessage {
   display: none;
-  color: Black;
+  color: orange;
 }
 
 .greetingMessage {
@@ -192,7 +193,19 @@ button {
   padding-left: 20px;
   text-align: left;
   line-height: 24px;
-  color: Black;
+}
+
+#addButton {
+  display: block;
+}
+
+.paint {
+  color: orange;
+}
+
+.paint2 {
+  color: orange;
+  padding-left: 20px;
 }
 
 .function {
@@ -212,10 +225,48 @@ input {
   width: 170px;
 }
 
+
 #quiz {
   display: none;
 }
 
+.secondQuiz {
+  height:200px;
+  width: 500px;
+  display: none;
+}
+
+.genre {
+  padding-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin: auto;
+  color: orange;
+}
+
+.genres {
+  padding-left: 0px;
+  padding-top: 0px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  position: relative;
+}
+
+li.genre {
+  display: block;
+}
+
+#genre1, #genre2, #genre3 label {
+
+  line-height: 20px;
+  cursor: pointer;
+}
+
+#genre3 {
+  cursor: pointer;
+}
 
 /*.videowrapper {
   position: relative;
