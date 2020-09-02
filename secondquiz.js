@@ -6,6 +6,7 @@ function secondQuizOne(){
   }
   console.log(genres);
   document.getElementById('quizzz').style.display = "block";
+  document.getElementById('latest').style.display = "block";
 }
 
 function secondQuizTwo(){
@@ -15,6 +16,7 @@ function secondQuizTwo(){
   }
   console.log(genres);
   document.getElementById('quizzz').style.display = "block";
+  document.getElementById('latest').style.display = "block";
 }
 
 function secondQuizThree(){
@@ -24,4 +26,5 @@ function secondQuizThree(){
   }
   console.log(genres);
   document.getElementById('quizzz').style.display = "block";
+  document.getElementById('latest').style.display = "block";
 }

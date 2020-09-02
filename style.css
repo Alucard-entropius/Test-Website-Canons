@@ -177,6 +177,8 @@ button {
   width: 100px;
   height: 30px;
   margin-left: 20px;
+  border-radius: 8px;
+  border: 2px solid orange;
 }
 
 #countDownButton {
@@ -203,6 +205,9 @@ button {
 
 #addButton {
   display: block;
+  float: right;
+  width: 200px;
+  margin-right: 100px;
 }
 
 .paint {
@@ -220,7 +225,7 @@ button {
 
 .function {
   height: auto;
-  width 100%;
+  width: 550px;
   padding: 20px;
   line-height: 50px;
 }
@@ -308,6 +313,22 @@ li.genre {
 
 #quizzz {
   display: none;
+}
+
+.randomAnswer {
+  width: 100%;
+}
+
+#finalAnswer {
+  width: 1000px;
+  color: purple;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.lastButton {
+    display: none;
 }
 
 /*input[type="checkbox"]:checked {

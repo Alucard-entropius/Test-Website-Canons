@@ -24,7 +24,7 @@
 
           <div id="quiz" class="function">
             <p>Type the names of your 3 favorite wow lore characters.</p>
-              <input  placeholder="maybe Illidan?" type="text" id="inputText">
+              <input  placeholder="maybe Illidan?" type="text" onfocus="this.value=''" id="inputText">
                 <script src="loreChars.js"></script>
               <button id="addButton" onclick="writeNames()">Add char</button>
               <p id="ptext"></p>
@@ -64,6 +64,13 @@
         <label class="labeltext" for="Sunwell">Sunwell</label>
       </div>
     </form>
+
+
+  <div class="randomAnswer">
+    <button id="latest" class="lastButton" onclick="randomize()" type="button" name="button">New Idea!</button>
+    <script src="random.js"></script>
+    <span id="finalAnswer"></span>
+  </div>
 
   </body>
 </html>
